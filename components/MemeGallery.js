@@ -29,7 +29,6 @@ const MemeGallery = () => {
     }
   };
 
-
   const handleThumbnailClick = (index) => {
     setSelectedImage(index);
     setPhotoSwipeOpen(true);
